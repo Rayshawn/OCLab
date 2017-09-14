@@ -35,10 +35,13 @@
 		1AAE08EC1EE7F38E0085C3A2 /* CustomListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE08EB1EE7F38E0085C3A2 /* CustomListController.m */; };
 		293FC8931F6047980031D4DE /* CocoaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FC8921F6047980031D4DE /* CocoaController.m */; };
 		293FC8961F6047D60031D4DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FC8951F6047D60031D4DE /* Person.m */; };
+		293FC89A1F6693060031D4DE /* ImgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FC8991F6693060031D4DE /* ImgVC.m */; };
+		293FC89D1F69259F0031D4DE /* zoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FC89C1F69259F0031D4DE /* zoomView.m */; };
 		2950167F1F4D7F960058C9CD /* GCD_dispatchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2950167E1F4D7F960058C9CD /* GCD_dispatchVC.m */; };
 		295160411F3B5C260026E6C5 /* CameraCaptureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 295160401F3B5C260026E6C5 /* CameraCaptureVC.m */; };
 		295160441F3C0E2E0026E6C5 /* CaptureSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 295160431F3C0E2E0026E6C5 /* CaptureSessionVC.m */; };
 		295160491F3CA3560026E6C5 /* SessionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 295160481F3CA3560026E6C5 /* SessionUtils.m */; };
+		29ABEE461F6A4C5C0094CA71 /* ImageProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ABEE451F6A4C5C0094CA71 /* ImageProcessor.m */; };
 		29F1DC19441470C345522432 /* Pods_CodeDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5025CF19A1273775CA7A2A /* Pods_CodeDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +123,10 @@
 		293FC8921F6047980031D4DE /* CocoaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaController.m; sourceTree = "<group>"; };
 		293FC8941F6047D60031D4DE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		293FC8951F6047D60031D4DE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		293FC8981F6693060031D4DE /* ImgVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgVC.h; sourceTree = "<group>"; };
+		293FC8991F6693060031D4DE /* ImgVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgVC.m; sourceTree = "<group>"; };
+		293FC89B1F69259F0031D4DE /* zoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zoomView.h; sourceTree = "<group>"; };
+		293FC89C1F69259F0031D4DE /* zoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zoomView.m; sourceTree = "<group>"; };
 		2950167D1F4D7F960058C9CD /* GCD_dispatchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_dispatchVC.h; sourceTree = "<group>"; };
 		2950167E1F4D7F960058C9CD /* GCD_dispatchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_dispatchVC.m; sourceTree = "<group>"; };
 		2951603F1F3B5C260026E6C5 /* CameraCaptureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureVC.h; sourceTree = "<group>"; };
@@ -128,6 +135,8 @@
 		295160431F3C0E2E0026E6C5 /* CaptureSessionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionVC.m; sourceTree = "<group>"; };
 		295160471F3CA3560026E6C5 /* SessionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionUtils.h; sourceTree = "<group>"; };
 		295160481F3CA3560026E6C5 /* SessionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionUtils.m; sourceTree = "<group>"; };
+		29ABEE441F6A4C5C0094CA71 /* ImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
+		29ABEE451F6A4C5C0094CA71 /* ImageProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessor.m; sourceTree = "<group>"; };
 		37581D1AF27611119D8AA286 /* Pods-CodeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemo/Pods-CodeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BA5025CF19A1273775CA7A2A /* Pods_CodeDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD02850717C2C54F9C2585E9 /* Pods-CodeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeDemo/Pods-CodeDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -296,6 +305,19 @@
 			path = cocoa;
 			sourceTree = "<group>";
 		};
+		293FC8971F6692F10031D4DE /* ImgVC */ = {
+			isa = PBXGroup;
+			children = (
+				293FC8981F6693060031D4DE /* ImgVC.h */,
+				293FC8991F6693060031D4DE /* ImgVC.m */,
+				293FC89B1F69259F0031D4DE /* zoomView.h */,
+				293FC89C1F69259F0031D4DE /* zoomView.m */,
+				29ABEE441F6A4C5C0094CA71 /* ImageProcessor.h */,
+				29ABEE451F6A4C5C0094CA71 /* ImageProcessor.m */,
+			);
+			path = ImgVC;
+			sourceTree = "<group>";
+		};
 		2950167C1F4D7F0B0058C9CD /* GCDVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +330,7 @@
 		2951603D1F3B562E0026E6C5 /* VCLists */ = {
 			isa = PBXGroup;
 			children = (
+				293FC8971F6692F10031D4DE /* ImgVC */,
 				293FC8901F6047840031D4DE /* cocoa */,
 				2950167C1F4D7F0B0058C9CD /* GCDVC */,
 				2951603E1F3B565A0026E6C5 /* cameraCapture */,
@@ -511,6 +534,7 @@
 				1A7A6BE61F1B4A9B00A602D6 /* SecondViewController.m in Sources */,
 				295160411F3B5C260026E6C5 /* CameraCaptureVC.m in Sources */,
 				293FC8961F6047D60031D4DE /* Person.m in Sources */,
+				293FC89D1F69259F0031D4DE /* zoomView.m in Sources */,
 				1A7A6BDD1F1B4A5800A602D6 /* BaseViewController.m in Sources */,
 				1A5845E61F270D4500A24234 /* LaGouController.m in Sources */,
 				1A7A6BF21F1B4AC600A602D6 /* QQZoneController.m in Sources */,
@@ -521,6 +545,7 @@
 				1A7A6BF31F1B4AC600A602D6 /* WeiBoMineController.m in Sources */,
 				1AAA1D4B1EEE380400681CB9 /* ZhiHuController.m in Sources */,
 				1A2061FA1E9CB4E4007BFB91 /* WRNavigationBar.m in Sources */,
+				293FC89A1F6693060031D4DE /* ImgVC.m in Sources */,
 				1A7A6BE11F1B4A8600A602D6 /* CustomNavBarController.m in Sources */,
 				293FC8931F6047980031D4DE /* CocoaController.m in Sources */,
 				1AAE08E91EE7F3350085C3A2 /* MoveListController.m in Sources */,
@@ -530,6 +555,7 @@
 				2950167F1F4D7F960058C9CD /* GCD_dispatchVC.m in Sources */,
 				1A854E481F0BECB10077CAF4 /* ImageNavController.m in Sources */,
 				1AAA1D511EEE65D000681CB9 /* AntForestController.m in Sources */,
+				29ABEE461F6A4C5C0094CA71 /* ImageProcessor.m in Sources */,
 				1A7A6BE71F1B4A9B00A602D6 /* SixthViewController.m in Sources */,
 				1A5845FF1F27835100A24234 /* WRImageHelper.m in Sources */,
 				1A7A6BF01F1B4AC600A602D6 /* NormalListController.m in Sources */,

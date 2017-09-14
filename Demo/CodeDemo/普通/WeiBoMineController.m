@@ -17,6 +17,7 @@
 #import "CaptureSessionVC.h"
 #import "GCD_dispatchVC.h"
 #import "CocoaController.h"
+#import "ImgVC.h"
 
 #define NAVBAR_COLORCHANGE_POINT (IMAGE_HEIGHT - NAV_HEIGHT*2)
 #define IMAGE_HEIGHT 220
@@ -129,6 +130,8 @@
     } else if (indexPath.row == 3) {
         CocoaController *vc = [[CocoaController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 4) {
+        [self.navigationController pushViewController:[[ImgVC alloc] init] animated:YES];
     }
     
    
