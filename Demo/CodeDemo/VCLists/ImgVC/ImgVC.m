@@ -10,6 +10,8 @@
 #import "zoomView.h"
 #import "ImageProcessor.h"
 
+#import <objc/runtime.h>
+
 
 CG_INLINE CGPoint CGRectGetCenter(CGRect rect)
 {
